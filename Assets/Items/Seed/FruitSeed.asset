@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8596b996698c3eb42bf2970ea2c3bfd4, type: 3}
+  m_Name: FruitSeed
+  m_EditorClassIdentifier: 
+  itemName: FruitSeed
+  icon: {fileID: 1281548965, guid: 768c575dfe8d558498a89b6acaa57cf2, type: 3}
+  seedTile: {fileID: 11400000, guid: 19a06fbce60d61946b1c2b2ce4f3e926, type: 2}
+  growthPrefabs:
+  - {fileID: 8435855090744054771, guid: 1d2b481258fd5074f86a5ff595447dc1, type: 3}
+  - {fileID: 1090780565430408523, guid: 01a99f39350217942a839e72ebc4ac4d, type: 3}
+  - {fileID: 781360026957137806, guid: c2510377bf6ef0f48b658e52a957d181, type: 3}
+  - {fileID: 8615451564892995919, guid: 4e8b2831498857b44b8e9ca604ee6620, type: 3}
+  dayPerStage: 1
+  plowedTile: {fileID: 11400000, guid: b3d193beea4442046afc8cad4007d822, type: 2}
+  wateredTile: {fileID: 11400000, guid: deea3d557f1b71148afbe6f02f158da7, type: 2}
+  harvestItem: {fileID: 6680648857864311999, guid: a7b9922c6724ab94d9980e972b258f14, type: 3}

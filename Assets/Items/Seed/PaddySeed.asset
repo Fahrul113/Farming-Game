@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8596b996698c3eb42bf2970ea2c3bfd4, type: 3}
+  m_Name: PaddySeed
+  m_EditorClassIdentifier: 
+  itemName: PaddySeed
+  icon: {fileID: 1719762681, guid: 768c575dfe8d558498a89b6acaa57cf2, type: 3}
+  seedTile: {fileID: 11400000, guid: ceb306b1d96986346b135c0817dbf7e5, type: 2}
+  growthPrefabs:
+  - {fileID: 4422250266479169785, guid: 0b151dc1965881949b5637d87d86f939, type: 3}
+  - {fileID: 5071609900298675127, guid: 846467f0f9406ff41ac00d575e5ba452, type: 3}
+  - {fileID: 2650302791017091524, guid: 089c5643ce05e8a41bca87577b78018d, type: 3}
+  - {fileID: 6587873302586438431, guid: d42a1613f74baad4e934b9c770bdf171, type: 3}
+  dayPerStage: 2
+  plowedTile: {fileID: 11400000, guid: b3d193beea4442046afc8cad4007d822, type: 2}
+  wateredTile: {fileID: 11400000, guid: deea3d557f1b71148afbe6f02f158da7, type: 2}
+  harvestItem: {fileID: 6680648857864311999, guid: f56ff80f43599e24f9b9059ce8750e47, type: 3}
